@@ -1,0 +1,38 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.jobs-list{
+    max-width: 1200px;
+    margin: auto;
+    background: #fbfbfb;
+    padding: 50px;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.1);
+}
+.submit_job label,
+.submit_job input,
+.submit_job select,
+.submit_job textarea{
+	width: 100%;
+	text-align: left!important;
+}
+.submit_job label{
+	display: block;
+	margin-bottom: 20px!important;
+}
+.submit_job{
+	  position: relative;
+	  box-sizing: border-box;
+    padding: 50px;
+    max-width: 900px;
+    margin: auto;
+    background: #EEE;
+    text-align: left!important;
+}
+#jobloader,
+#jobadded{
+	display: none;
+}
+#jobsTable{
+    font-size: 14px;
+}
